@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'AmsterdamFour_ttf400';
+  src: url('/fonts/AmsterdamFour_ttf400.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    --brand-sage: #525e54;
+    --brand-sage-dark: #414b43;
+    --brand-sage-light: #718073;
+    --brand-gold: #f1c50e;
+    --brand-gold-hover: #d9b10d;
+    --brand-bg-dark: #1b211d;
+    --brand-card-dark: #262e28;
+    --brand-card-light: #343f37;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+
+  body {
+    background-color: #1e2420;
+    color: #e5ece6;
+    overflow-x: hidden;
+  }
+}
+
+.font-amsterdam {
+  font-family: 'AmsterdamFour_ttf400', cursive, sans-serif;
+}
+
+.font-archivo {
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.font-archivo-narrow {
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #171c19;
+}
+::-webkit-scrollbar-thumb {
+  background: #3b463e;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f1c50e;
+}
+
