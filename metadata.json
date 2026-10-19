@@ -1,0 +1,6 @@
+{
+  "name": "Visthétique - 3D Design Studio",
+  "description": "Premium 3D architectural visualization, interior and exterior design, game asset modeling, and interactive 3D showcase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
